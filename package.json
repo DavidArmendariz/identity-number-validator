@@ -1,0 +1,19 @@
+{
+  "name": "identity-number-validator",
+  "version": "1.0.0",
+  "description": "Package to validate if an identity number is valid or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidArmendariz/identity-number-validator.git"
+  },
+  "author": "David Armendáriz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidArmendariz/identity-number-validator/issues"
+  },
+  "homepage": "https://github.com/DavidArmendariz/identity-number-validator#readme"
+}
