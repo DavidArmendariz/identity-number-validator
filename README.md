@@ -1,13 +1,14 @@
-## Install
+# Install
 
-```
+```bash
 npm install identity-number-validator
 ```
 
 ## Usage
 
-```
-const identityNumberValidator = require("identity-number-validator");
+```javascript
+const identityNumberValidator = require('identity-number-validator');
+// Returns true or false
 identityNumberValidator(identityNumber, countryCode);
 ```
 
