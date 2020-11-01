@@ -1,6 +1,6 @@
 {
   "name": "identity-number-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package to validate if an identity number is valid or not",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -44,6 +44,12 @@
       "pre-push": "yarn coverage"
     }
   },
-  "files": ["build/**/*"],
-  "keywords": ["ecuador", "cedula", "identity"]
+  "files": [
+    "build/**/*"
+  ],
+  "keywords": [
+    "ecuador",
+    "cedula",
+    "identity"
+  ]
 }
