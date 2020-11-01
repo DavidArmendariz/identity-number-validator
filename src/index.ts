@@ -1,6 +1,6 @@
 import { ecuadorianIdentifierValidator } from './countries/ecuador'
 
-const identityNumberValidator = (identityNumber: string, country: string) => {
+export default (identityNumber: string, country: string) => {
   if (typeof country !== 'string') {
     throw Error('Country code must be a string')
   }
@@ -12,5 +12,3 @@ const identityNumberValidator = (identityNumber: string, country: string) => {
       throw Error('Invalid country code')
   }
 }
-
-export default identityNumberValidator
