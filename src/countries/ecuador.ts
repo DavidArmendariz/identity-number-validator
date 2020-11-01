@@ -1,4 +1,4 @@
-import utils from 'utils'
+import utils from '../utils'
 
 export const ecuadorianIdentifierValidator = (identifier: string) => {
   if (typeof identifier !== 'string') {

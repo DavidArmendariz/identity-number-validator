@@ -2,8 +2,8 @@
   "name": "identity-number-validator",
   "version": "1.0.1",
   "description": "Package to validate if an identity number is valid or not",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -45,7 +45,7 @@
     }
   },
   "files": [
-    "build/**/*"
+    "lib/**/*"
   ],
   "keywords": [
     "ecuador",

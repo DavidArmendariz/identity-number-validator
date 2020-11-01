@@ -1,4 +1,4 @@
-import { ecuadorianIdentifierValidator } from 'countries/ecuador'
+import { ecuadorianIdentifierValidator } from './countries/ecuador'
 
 const identityNumberValidator = (identityNumber: string, country: string) => {
   if (typeof country !== 'string') {
