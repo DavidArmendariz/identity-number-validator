@@ -41,7 +41,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn check-types && yarn lint",
-      "pre-push": "yarn coverage && yarn publish"
+      "pre-push": "yarn coverage"
     }
   },
   "files": ["build/**/*"],
