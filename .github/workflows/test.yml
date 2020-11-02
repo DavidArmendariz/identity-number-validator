@@ -1,7 +1,10 @@
-name: A workflow to test the code on push
-on: push
+name: Testing
+on: 
+  push:
+    branches-ignore:
+      - master
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
