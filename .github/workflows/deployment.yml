@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
       - name: Run the linting
-        run: yarn linting
+        run: yarn lint
       - name: Run the tests
         run: yarn test
       - name: Deploy to NPM
