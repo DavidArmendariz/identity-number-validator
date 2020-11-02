@@ -1,5 +1,7 @@
 <a href="https://www.buymeacoffee.com/darmendarizp"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=darmendarizp&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"></a>
 
+![badge](https://github.com/DavidArmendariz/identity-number-validator/workflows/Testing%20and%20deploying/badge.svg)
+
 # Install
 
 With `npm`:

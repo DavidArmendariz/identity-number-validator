@@ -15,17 +15,11 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
         run: yarn --frozen-lockfile
-      - name: Test the code
+      - name: Run the linting
+        run: yarn linting
+      - name: Run the tests
         run: yarn test
       - name: Deploy to NPM
         run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - name: Deploy to GitHub packages
-        uses: actions/setup-node@v1
-        with:
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@DavidArmendariz'
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
