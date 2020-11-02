@@ -1,7 +1,7 @@
 {
   "author": "David Armendáriz",
   "name": "identity-number-validator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Package to validate if an identity number is valid or not",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
