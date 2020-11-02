@@ -3,6 +3,8 @@ on:
   push:
     branches-ignore:
       - master
+  pull_request:
+    types: [opened, synchronize, edited]
 jobs:
   test:
     runs-on: ubuntu-latest
