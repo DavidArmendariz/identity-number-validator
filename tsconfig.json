@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
+    "target": "es5",
     "declaration": true,
-    "target": "esnext",
     "moduleResolution": "node",
     "outDir": "lib",
     "strict": true,
     "isolatedModules": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "downlevelIteration": true
   },
   "include": ["src"],
   "exclude": ["**/*.test.ts"]
