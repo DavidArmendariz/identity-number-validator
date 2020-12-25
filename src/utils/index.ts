@@ -1,5 +1,5 @@
-import { sumArray } from './sumArray'
+import { sumArray } from './sumArray';
 
 export default {
-  sumArray
-}
+  sumArray,
+};

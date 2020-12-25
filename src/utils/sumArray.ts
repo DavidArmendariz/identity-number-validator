@@ -1,3 +1,3 @@
-export const sumArray = (previousValue: number, currentValue: number) => {
-  return previousValue + currentValue
-}
+export const sumArray = (previousValue: number, currentValue: number): number => {
+  return previousValue + currentValue;
+};

@@ -1,14 +1,14 @@
-import { ecuadorianIdentifierValidator } from './countries/ecuador'
+import { ecuadorianIdentifierValidator } from './countries/ecuador';
 
-export default (identityNumber: string, country: string) => {
+export default (identityNumber: string, country: string): boolean => {
   if (typeof country !== 'string') {
-    throw Error('Country code must be a string')
+    throw Error('Country code must be a string');
   }
-  const upperCaseCountry = country.toUpperCase()
+  const upperCaseCountry = country.toUpperCase();
   switch (upperCaseCountry) {
     case 'EC':
-      return ecuadorianIdentifierValidator(identityNumber)
+      return ecuadorianIdentifierValidator(identityNumber);
     default:
-      throw Error('Invalid country code')
+      throw Error('Invalid country code');
   }
-}
+};
