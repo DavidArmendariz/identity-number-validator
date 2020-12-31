@@ -21,10 +21,6 @@ jobs:
         run: yarn test
       - name: Build
         run: yarn build
-      - name: Set git credentials
-        run: git config user.email "darmendariz1998@outlook.com" && git config user.name "David Armendariz"
-      - name: Patch
-        run: npm version patch
       - name: Deploy to NPM
         run: yarn publish
         env:
